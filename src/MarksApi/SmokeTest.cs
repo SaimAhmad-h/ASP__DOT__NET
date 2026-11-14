@@ -4,7 +4,6 @@ using System.Net.Http.Json;
 using System.Text.Json;
 
 namespace MarksApi;
-
 public static class SmokeTestRunner
 {
     public static async Task<bool> RunAsync(string baseUrl, IConfiguration configuration)
